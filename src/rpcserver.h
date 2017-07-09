@@ -200,5 +200,7 @@ extern json_spirit::Value verifychain(const json_spirit::Array& params, bool fHe
 extern json_spirit::Value getblockspacing(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getblockreward(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getmoneysupply(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value setminingalgo(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value getminingalgo(const json_spirit::Array& params, bool fHelp);
 
 #endif
